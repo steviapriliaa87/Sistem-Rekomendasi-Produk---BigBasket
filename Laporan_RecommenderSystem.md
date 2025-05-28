@@ -44,11 +44,11 @@ Secara khusus, tujuan proyek ini mencakup:
 
 Untuk mencapai tujuan tersebut, sistem rekomendasi yang dikembangkan akan menggabungkan dua pendekatan utama, yaitu **Content-Based Filtering** dan **Collaborative Filtering**. Kedua metode ini saling melengkapi dalam memahami preferensi pengguna dan memberikan saran produk yang tepat sasaran.
 
-### 1. **Content-Based Filtering**
+#### 1. **Content-Based Filtering**
 
 Pendekatan ini memberikan rekomendasi produk kepada pengguna berdasarkan **kemiripan atribut produk** dengan produk yang sebelumnya pernah mereka lihat atau beli.
 
-### 2. **Collaborative Filtering**
+#### 2. **Collaborative Filtering**
 
 Berbeda dengan pendekatan berbasis konten, **Collaborative Filtering** menganalisis **perilaku pengguna lain** untuk memberikan rekomendasi. Sistem akan mengidentifikasi **pola pembelian**, **ulasan**, atau **rating** dari pengguna lain yang memiliki **kebiasaan serupa**, kemudian menyarankan produk yang disukai oleh kelompok pengguna tersebut.
 
@@ -652,6 +652,7 @@ tersebut.
 
       
       Tahap 4 : cek hasil
+      
       ```python
       users_count = len(user_encoding_to_user) # jumlah user
       produk_count = len(produk_encoding_to_produk) # jumlah produk
@@ -853,7 +854,7 @@ Pada tahap modeling, sistem rekomendasi dikembangkan menggunakan dua pendekatan 
 	```
 	Pada tahap ini, sistem secara acak memilih satu nama produk dari daftar produk_name, yaitu kumpulan nama produk yang tersedia dalam data. Produk ini berperan sebagai input permintaan pengguna yang akan digunakan untuk mencari rekomendasi produk-produk lain yang mirip.
 	
-	** Tahap 6 :** Menampilkan Hasil Rekomendasi Produk
+	**Tahap 6 :** Menampilkan Hasil Rekomendasi Produk
    
 	Menampilkan daftar produk yang paling relevan atau mirip dengan produk yang diminta oleh user, sebagai hasil akhir dari sistem rekomendasi.
 
@@ -886,7 +887,7 @@ Pada tahap modeling, sistem rekomendasi dikembangkan menggunakan dua pendekatan 
 Proses penggunaan model, yang memakai pendekatan content based filtering berhasil dilakukan, dengan memberikan Top-N Recommendations dari input yang diberikan. Pada project ini, model berhasil memberikan rekomendasi produk aneka pilihan produk coklat berdasarkan input random yang diberikan, yaitu  I Love You Dark Almond Chocolate Bar, Dark Almond Flavour yang juga merupakan produk coklat.
 
 
-3. Collaborative Filtering
+2. Collaborative Filtering
 
    Collaborative Filtering adalah pendekatan sistem rekomendasi yang menyarankan item kepada pengguna berdasarkan kesamaan preferensi dengan pengguna lain. Alih-alih menganalisis fitur item, metode ini memanfaatkan pola interaksi historis antar pengguna dan produk, seperti penilaian (rating) atau riwayat pembelian. Dengan mencari pengguna yang memiliki perilaku serupa, sistem dapat memperkirakan item mana yang kemungkinan disukai oleh pengguna target. Pendekatan ini efektif dalam menangkap hubungan tersembunyi antar item dan pengguna, namun memiliki tantangan dalam menghadapi pengguna atau produk baru yang belum memiliki cukup interaksi.
    
