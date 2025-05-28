@@ -882,7 +882,7 @@ Pada tahap modeling, sistem rekomendasi dikembangkan menggunakan dua pendekatan 
 	| 11204 | I Love You Dark Almond Chocolate Bar, Dark Almond...        | Love You To The Moon And Back Signature Blend Bar  |
 
 
-3. Collaborative Filtering
+2. Collaborative Filtering
 
    Collaborative Filtering adalah pendekatan sistem rekomendasi yang menyarankan item kepada pengguna berdasarkan kesamaan preferensi dengan pengguna lain. Alih-alih menganalisis fitur item, metode ini memanfaatkan pola interaksi historis antar pengguna dan produk, seperti penilaian (rating) atau riwayat pembelian. Dengan mencari pengguna yang memiliki perilaku serupa, sistem dapat memperkirakan item mana yang kemungkinan disukai oleh pengguna target. Pendekatan ini efektif dalam menangkap hubungan tersembunyi antar item dan pengguna, namun memiliki tantangan dalam menghadapi pengguna atau produk baru yang belum memiliki cukup interaksi.
    
