@@ -160,7 +160,7 @@ Variasi harga jual dan harga pasar cukup besar, terlihat dari nilai standar devi
 	| 9 | Fruits & Vegetables         | 557    |
 	|10 | Eggs, Meat & Fish           | 350    |
 
-     ![1_Distribusi Jumlah Data per Kategori Produk](https://github.com/user-attachments/assets/24fc8245-2261-4b73-993f-52f3f4a0461c)
+     ![1_Distribusi Jumlah Data per Kategori Produk](https://github.com/steviapriliaa87/Sistem-Rekomendasi-Produk---BigBasket/blob/main/image/1_Distribusi%20Jumlah%20Data%20per%20Kategori%20Produk.png?raw=true)
 
      Visualisasi ini menunjukkan distribusi jumlah produk berdasarkan kategori dalam dataset. Total terdapat 11 kategori produk dengan variasi jumlah data yang cukup signifikan.
 
@@ -186,7 +186,7 @@ Variasi harga jual dan harga pasar cukup besar, terlihat dari nilai standar devi
 	| 8 | Olive Oil - Extra Virgin          | Gourmet & World Food      | 11     |
 	| 9 | Casting Creme Gloss Hair Color    | Beauty & Hygiene          | 10     |
 
-     ![Top 10 Produk Best Seller](https://github.com/user-attachments/assets/26daea23-3539-4185-982b-566aa1c0c274)
+     ![Top 10 Produk Best Seller](https://github.com/steviapriliaa87/Sistem-Rekomendasi-Produk---BigBasket/blob/main/image/2_Top%2010%20Produk%20Best%20Seller.png?raw=true)
 
      Berdasarkan visualisasi data di atas, produk yang paling sering muncul dalam dataset didominasi oleh bahan-bahan yang 
      berkaitan dengan kebutuhan memasak, seperti bumbu dapur Turmeric Powder/Arisina Pudi. Selain itu, produk lemak dan 
@@ -231,7 +231,7 @@ Variasi harga jual dan harga pasar cukup besar, terlihat dari nilai standar devi
 	
 	**1407 rows × 10 columns**
 
-     ![Daftar Jumlah Top Kategori dengan Rating Tertinggi (5.0)](https://github.com/user-attachments/assets/dc6c7bce-1fd7-4111-b858-c3b84d80580f)
+     ![Daftar Jumlah Top Kategori dengan Rating Tertinggi (5.0)](https://github.com/steviapriliaa87/Sistem-Rekomendasi-Produk---BigBasket/blob/main/image/3_Top%20Kategori%20dengan%20Rating%20Tertinggi%20(5.0).png?raw=true)
 
 	|   | Kategori Produk           | Jumlah Produk |
 	|---|---------------------------|----------------|
@@ -266,7 +266,7 @@ Variasi harga jual dan harga pasar cukup besar, terlihat dari nilai standar devi
 	| 7   | Beverages                 | 9              |
 	| 8   | Bakery, Cakes & Dairy     | 2              |
 
-     ![Daftar Jumlah Kategori dengan Rating Terendah (1.0)](https://github.com/user-attachments/assets/9909dec4-fd70-42e0-a942-bf461b2dfee4)
+     ![Daftar Jumlah Kategori dengan Rating Terendah (1.0)](https://github.com/steviapriliaa87/Sistem-Rekomendasi-Produk---BigBasket/blob/main/image/4_produk%20rating%20terendah.png?raw=true)
 
      Visualisasi tersebut menunjukkan distribusi kategori produk dengan rating terendah (1.0), di mana kategori Beauty & Hygiene memiliki jumlah produk terbanyak yang diberi rating rendah, diikuti oleh Kitchen, Garden & Pets dan Gourmet & World Food. Hal ini mengindikasikan bahwa produk-produk dalam kategori tersebut cenderung mendapat ulasan buruk dari pengguna, sehingga dapat menjadi perhatian khusus untuk evaluasi kualitas atau kepuasan pelanggan.
 
@@ -1275,7 +1275,7 @@ plt.show()
 
 Dari hasil visualisasi, diperoleh grafik RMSE sebagai berikut:
 
-![Evaluasi RMSE](attachment:8e7f139e-16be-40df-b8df-a1ebb8c00933.png)
+![Evaluasi RMSE](https://github.com/steviapriliaa87/Sistem-Rekomendasi-Produk---BigBasket/blob/main/image/Evaluasi%20Collab%20Filter.png?raw=true)
 
 * Garis **biru** menunjukkan nilai RMSE pada data pelatihan (Train RMSE).
 * Garis **oranye** menunjukkan nilai RMSE pada data validasi (Val RMSE).
