@@ -753,6 +753,8 @@ Pada tahap modeling, sistem rekomendasi dikembangkan menggunakan dua pendekatan 
 	<Compressed Sparse Row sparse matrix of dtype 'float64'
 		with 177283 stored elements and shape (27087, 3079)>
 	```
+
+ 	Hasil di atas merupakan output dari representasi sparse matrix yang digunakan dalam analisis teks berbasis TF-IDF. Matriks ini memiliki 27087 baris dan 3079 kolom, di mana baris merepresentasikan produk, dan kolom merepresentasikan fitur (kata unik) dari deskripsi produk. Setiap elemen bertipe float64 yang merepresentasikan skor TF-IDF, yaitu seberapa penting suatu kata terhadap produk tertentu. Dari total sekitar 83 juta elemen, hanya 177283 yang bernilai tidak nol. Matriks ini disimpan dalam format Compressed Sparse Row (CSR), yang efisien dalam penggunaan memori dan proses komputasi.
 	
 	**Tahap 2:** Perhitungan Cosine Similarity
 
@@ -835,8 +837,8 @@ Pada tahap modeling, sistem rekomendasi dikembangkan menggunakan dua pendekatan 
 	```
 	
 	**Tahap 5 :** Pemilihan Produk Uji Coba Secara Acak
-   
-   M	emilih salah satu produk dari dataset sebagai input simulasi permintaan user untuk menguji sistem rekomendasi.
+
+    Memilih salah satu produk dari dataset sebagai input simulasi permintaan user untuk menguji sistem rekomendasi.
 	
 	```python
 	# Nama produk yang diminta user (dipilih secara acak dari daftar produk)
@@ -881,8 +883,10 @@ Pada tahap modeling, sistem rekomendasi dikembangkan menggunakan dua pendekatan 
 	| 11015 | I Love You Dark Almond Chocolate Bar, Dark Almond...        | Milk Marzipan                                      |
 	| 11204 | I Love You Dark Almond Chocolate Bar, Dark Almond...        | Love You To The Moon And Back Signature Blend Bar  |
 
+Proses penggunaan model, yang memakai pendekatan content based filtering berhasil dilakukan, dengan memberikan Top-N Recommendations dari input yang diberikan. Pada project ini, model berhasil memberikan rekomendasi produk aneka pilihan produk coklat berdasarkan input random yang diberikan, yaitu  I Love You Dark Almond Chocolate Bar, Dark Almond Flavour yang juga merupakan produk coklat.
 
-2. Collaborative Filtering
+
+3. Collaborative Filtering
 
    Collaborative Filtering adalah pendekatan sistem rekomendasi yang menyarankan item kepada pengguna berdasarkan kesamaan preferensi dengan pengguna lain. Alih-alih menganalisis fitur item, metode ini memanfaatkan pola interaksi historis antar pengguna dan produk, seperti penilaian (rating) atau riwayat pembelian. Dengan mencari pengguna yang memiliki perilaku serupa, sistem dapat memperkirakan item mana yang kemungkinan disukai oleh pengguna target. Pendekatan ini efektif dalam menangkap hubungan tersembunyi antar item dan pengguna, namun memiliki tantangan dalam menghadapi pengguna atau produk baru yang belum memiliki cukup interaksi.
    
