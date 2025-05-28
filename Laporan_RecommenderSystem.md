@@ -1225,10 +1225,6 @@ Artinya, seluruh produk yang direkomendasikan oleh sistem berdasarkan kemiripan 
 Hal ini mengindikasikan bahwa pendekatan Content-Based Filtering efektif dalam menyaring item yang benar-benar relevan terhadap preferensi pengguna berdasarkan fitur produk.
 
 
-Berikut adalah penulisan ulang bagian **Evaluasi Model Collaborative Filtering** untuk laporan Anda, **disertai dengan penjelasan dan kode programnya**:
-
----
-
 ### B. Content-Based Filtering
 
 Untuk mengevaluasi performa model Collaborative Filtering yang telah dibangun, digunakan metrik **Root Mean Squared Error (RMSE)**. Metrik ini digunakan untuk mengukur sejauh mana prediksi model mendekati nilai aktual (rating dari user). RMSE merupakan salah satu metrik paling umum dalam sistem rekomendasi karena dapat menangkap kesalahan prediksi dalam satuan yang sama dengan data aslinya (misalnya skala rating 1–5).
